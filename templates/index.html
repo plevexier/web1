@@ -1,0 +1,13 @@
+{% extends "layouts/default.html" %}
+{% block title %}Welcome to Caveman2{% endblock %}
+{% block content %}
+<div id="main">
+  <ul>
+  {% for author in authors %}
+  <li>    
+    <div>{{ author.first-name }}&nbsp;{{ author.last-name }}<{{ author.email}}></div>
+  </li>
+  {% endfor %}
+  </ul>
+</div>
+{% endblock %}
