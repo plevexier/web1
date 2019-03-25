@@ -1,13 +1,15 @@
 # web1
 
-
+RESTful service with caveman2, mysql.
 
 ## Usage
 
 To launch in REPL, do:
 
 (pushnew (truename "~/dev/lisp/web1") ql:*local-project-directories* )
+
 (ql:register-local-projects)
+
 (ql:quickload :web1)
 
 and then:
